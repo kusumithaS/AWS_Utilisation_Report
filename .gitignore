@@ -1,1 +1,3 @@
 # ignore all build,dist and pycache
+dist/
+build/
