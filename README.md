@@ -18,7 +18,7 @@ This project generates a monthly network utilization report for AWS EC2 instance
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/AWS_Utilisation_Report.git
+    git clone https://github.com/kusumithaS/AWS_Utilisation_Report.git
     cd AWS_Utilisation_Report
     ```
 
@@ -30,7 +30,7 @@ This project generates a monthly network utilization report for AWS EC2 instance
 ## Usage
 1. Ensure your AWS CLI is configured with SSO profiles.
 
-2. Run the [build.ps1](http://_vscodecontentref_/1) script to build the executable:
+2. Run the [build.ps1](https://github.com/kusumithaS/AWS_Utilisation_Report/blob/master/build.ps1) script to build the executable:
     ```powershell
     .\build.ps1
     ```
@@ -43,10 +43,10 @@ This project generates a monthly network utilization report for AWS EC2 instance
 4. Follow the prompts to enter the SSO profile name and the month and year (MM-YYYY) for the report.
 
 ## Files
-- [monthly_report.py](http://_vscodecontentref_/2): Main script to generate the report.
-- [build.ps1](http://_vscodecontentref_/3): PowerShell script to build the executable using PyInstaller.
-- [requirements.txt](http://_vscodecontentref_/4): List of required Python packages.
-- [version.txt](http://_vscodecontentref_/5): File to keep track of the version number for the executable.
+- [monthly_report.py](https://github.com/kusumithaS/AWS_Utilisation_Report/blob/master/monthly_report.py): Main script to generate the report.
+- [build.ps1](https://github.com/kusumithaS/AWS_Utilisation_Report/blob/master/build.ps1): PowerShell script to build the executable using PyInstaller.
+- [requirements.txt](https://github.com/kusumithaS/AWS_Utilisation_Report/blob/master/requirements.txt): List of required Python packages.
+- [version.txt](https://github.com/kusumithaS/AWS_Utilisation_Report/blob/master/version.txt): File to keep track of the version number for the executable.
 
 
 ## License
