@@ -1,3 +1,7 @@
 # ignore all build,dist and pycache
 dist/
 build/
+output/
+
+# ignore spec files
+*.spec

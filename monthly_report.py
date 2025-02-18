@@ -841,7 +841,7 @@ def main(profile_names, month_year):
 
 # Run the main function
 if __name__ == "__main__":
-    #profile_name = input("Enter SSO Profile")
-    profile_names = []
+    profile_names = input("Enter SSO Profile")
+    #profile_names = []
     month_year = input("Enter the month and year (MM-YYYY): ")
     main(profile_names, month_year)
