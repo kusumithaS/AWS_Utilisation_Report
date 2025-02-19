@@ -1,4 +1,5 @@
 import boto3
+import botocore
 import subprocess
 
 # Function to list EC2s

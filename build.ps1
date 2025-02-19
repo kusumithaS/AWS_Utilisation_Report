@@ -22,7 +22,7 @@ if (Test-Path .\*.spec) {
 }
 
 # build the executable file
-python -m PyInstaller --onefile --noconsole --name aws_monthly_report_$newVersion .\monthly_report.py
+python -m PyInstaller --onefile --name aws_monthly_report_$newVersion .\monthly_report.py
 
 # create output folder if not exist
 $outputFolder = ".\output"
